@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if (empty($_POST)) {
 		echo "Формата не е попълнена";
 }
@@ -21,7 +21,7 @@ if(preg_match($email_regex, $email)) {
 
 } else {
 
-    echo "Невалиден емайл";
+    echo "Невалиден емайл адрес";
 
 }	
 

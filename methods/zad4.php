@@ -17,13 +17,27 @@ for ($i=0; $i<=$M ; $i++) {
 	echo "<br/>";
 }
 
-for ($i=0; $i <=$M ; $i++) { 
-	for ($j=0; $j <=$N ; $j++) { 
+for ($i=0; $i <$M ; $i++) {
+	 
+	for ($j=0; $j <$N ; $j++) { 
 				echo "a[$i][$j]" . $matrix[$i][$j] . ' ';	
 
 	}
 	echo "<br/>";
 }
 }
-matrix_number($matrix);	
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<table border = 1>
+<tr>
+<td> <?php matrix_number($matrix) ?></td>	
+</tr>
+</table>
+</body>
+</html>
+
